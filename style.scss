@@ -1,0 +1,49 @@
+header{
+    position: absolute;
+}
+
+
+.header-top{
+margin-top: 20px;
+       height: 100px;
+    }
+    .header-top-left{
+        display: inline-block;
+        width: 20%;
+        margin-left: 20px;
+        .icon{
+            display: inline-block;
+            width: 100%;
+            font-size: 2rem;
+            color: red;
+        }
+        p{
+            display: inline-block;
+            width: 50%;
+            font-size: 1rem;
+        }
+    }
+     .header-top-center{
+        display: inline-block;
+        background-color: rgb(201, 247, 0);
+        width: 33%;
+        font-size: 1rem;
+          i{
+              width: 40px;
+          }
+            .search-bar {
+                    display: inline-block;
+                    text-align: center;
+                    
+                }
+            }
+
+     .header-top-right{
+        display: inline-block;      
+        background-color: rgb(45, 71, 88);
+        width: 33%;
+        font-size: 1rem;
+        text-align: right;
+    
+     }
+    

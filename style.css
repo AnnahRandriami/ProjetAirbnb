@@ -1,0 +1,49 @@
+header {
+  position: absolute;
+}
+
+.header-top {
+  margin-top: 20px;
+  height: 100px;
+}
+
+.header-top-left {
+  display: inline-block;
+  width: 20%;
+  margin-left: 20px;
+}
+.header-top-left .icon {
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  color: red;
+}
+.header-top-left p {
+  display: inline-block;
+  width: 50%;
+  font-size: 1rem;
+}
+
+.header-top-center {
+  display: inline-block;
+  background-color: #c9f700;
+  width: 33%;
+  font-size: 1rem;
+}
+.header-top-center i {
+  width: 40px;
+}
+.header-top-center .search-bar {
+  display: inline-block;
+  text-align: center;
+}
+
+.header-top-right {
+  display: inline-block;
+  background-color: #2d4758;
+  width: 33%;
+  font-size: 1rem;
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
