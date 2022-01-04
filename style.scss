@@ -1,11 +1,18 @@
-header{
-    position: absolute;
+body{
+    margin: 0;
+    padding:0;
+   
 }
 
+header{
+    align-items: center;
+    display: inline-block;
+}
 
 .header-top{
-margin-top: 20px;
+
        height: 100px;
+       width: 100%;
     }
     .header-top-left{
         display: inline-block;
@@ -14,36 +21,95 @@ margin-top: 20px;
         .icon{
             display: inline-block;
             width: 100%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: red;
         }
         p{
             display: inline-block;
             width: 50%;
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
     }
      .header-top-center{
         display: inline-block;
-        background-color: rgb(201, 247, 0);
-        width: 33%;
+        width: 25%;
         font-size: 1rem;
+        text-align: center;
+      background-color: white;
+      border: 0.1rem solid;
+      border-radius: 50px;
+      margin-left: 50px;
+       
           i{
               width: 40px;
           }
             .search-bar {
                     display: inline-block;
                     text-align: center;
-                    
+                    .fa-search{
+                        background-color: rgb(219, 80, 196);
+                        border-radius: 50px;
+                        height: 20px;
+                        width: 20px;
+                        padding: 10px;
+                        color: white;
+                        z-index: 9999;
+                    }
+                    input {
+                        width: 300px;
+                        height: 30px;
+                       font-size: 1rem;
+                       font-weight: bold;
+                       border: none;
+                     
+                    }           
                 }
             }
 
      .header-top-right{
         display: inline-block;      
-        background-color: rgb(45, 71, 88);
-        width: 33%;
-        font-size: 1rem;
-        text-align: right;
-    
+      width: 40%;
+      font-size: 1rem;
+      gap: 5px;
+      text-align: right;
+      margin-left: 100px;
+      border-left: 1px;    
+                .lien-hote {
+                    display: inline;
+                    font-size: 1.2rem;
+                    a:link{
+                       text-decoration: none;
+                       color: black;
+                   
+                    }
+            
+                
+                }
+                .icon-globe {
+                    display: inline-block;
+                    width: 5%;
+                }
+                .icon-user{
+                    display: inline-block;
+                    width: 5%;
+                }
      }
+.container-home{
+  .librairie{
+      display: flexbox;
+  }
+    height: 100vh;
+    .premiereimage{
+        text-align: center;
+        height: 100vh;
+    }
+        img{
+            width:900px;
+            height: 750px;        
+    }
+    .container-text p{
+        color: black;
+        z-index: 9999;
+    }
+}
     
