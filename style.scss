@@ -6,7 +6,7 @@ body{
 header{
 }
 .header-page{
-    display: flex;
+    display: none;
     height: 120px;
     background-color: black;
     color: white;
@@ -128,7 +128,7 @@ header{
     }
 }
 .header-top{
-    display: none;
+    display: inline-block;
        height: 100px;
        width: 100%;
     }
