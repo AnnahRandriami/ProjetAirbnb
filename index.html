@@ -5,75 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="/assets/images/logo/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/style.css">
-    <title>Airbnb</title>
+    <title>Document</title>
 </head>
 <body>
-
  <!-- container header -->
-<div class="header">
-    <div class="header-page">
-        <div class="page-left">
-            <div class="logo">
-                <i class="fab fa-airbnb"></i>
-              <p>airbnb</p>
+<div class="header row bg-dark text-white">
+        <div class="page-left col row">
+            <div class="logo col row row-cols-2">
+                <i class="fab fa-airbnb col-1 fs-1"></i>
+                 <p class ="col-2 " style= " margin-top :20px ; margin-left :20px ">airbnb</p>
             </div>
         </div>
-        <div class="page-center">
-            <div class="liste">
-                <a href="#">Hebergement</a>
-                <a href="#">Expériences</a>
-                <a href="#">Expérience en ligne</a>
-                <div class="formulaire">
+        <div class="page-center col wider mt-70-px">
+            <div class="liste row row-cols-3 center -3 mb-2 bg-dark text-white" style= " margin-top :50px" >
+                    <p style ="padding-left : 90px ">Hebergement</p>
+                    <p style ="padding-left : 90px ">Hebergement</p>
+                    <p style ="padding-left : 90px ">Hebergement</p>
+                <div class="formulaire col d-flex justify-content-right">
                     <div class="form1">
-                        <form method="post" action="traitement.php">
+                        <form class= "" method="post" action="traitement.php">
                             <p>
-                                <label for="pseudo">Adresse:</label>
-                                <input type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
+                                <label class =""for="pseudo">Adresse:</label>
+                                <input class ="" type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
                             </p>
                         </form>
                     </div>
                     <div class="form2">
-                        <form method="post" action="traitement.php">
+                        <form class= "" method="post" action="traitement.php">
                             <p>
-                                <label for="pseudo">Arrivée :</label>
-                                <input type="text" name="pseudo" id="pseudo" placeholder="Quand?" size="15" maxlength="10" />
+                                <label class =""for="pseudo">Adresse:</label>
+                                <input class ="w-10" type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
                             </p>
                         </form>
                     </div>
-                    <div class="form3">
-                        <form method="post" action="traitement.php">
+                    <div class="form2">
+                        <form class= "" method="post" action="traitement.php">
                             <p>
-                                <label for="pseudo">Départ :</label>
-                                <input type="text" name="pseudo" id="pseudo" placeholder="Quand?" size="15" maxlength="10" />
+                                <label class =""for="pseudo">Adresse:</label>
+                                <input class ="" type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
                             </p>
                         </form>
                     </div>
-                    <div class="form4">
-                        <form method="post" action="traitement.php">
+                    <div class="form2">
+                        <form class= "" method="post" action="traitement.php">
                             <p>
-                                <label for="pseudo">Voyageur :</label>
-                                <input type="text" name="pseudo" id="pseudo" placeholder="Qui?" size="15" maxlength="10" />
+                                <label class =""for="pseudo">Adresse:</label>
+                                <input class ="" type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
                             </p>
                         </form>
                     </div>
-                    <div class="form5">
-                            <i class="fas fa-search"></i>
+                    <div class="form2">
+                        <form class= "" method="post" action="traitement.php">
+                            <p>
+                                <label class =""for="pseudo">Adresse:</label>
+                                <input class ="" type="text" name="pseudo" id="pseudo" placeholder="Où allez-vous?" size="15" maxlength="10" />
+                            </p>
+                        </form>
                     </div>
+                    
+                    
                 </div>
             </div>
         </div>
-        <div class="page-right">
-            <div class="lien-hote">
+        <div class="page-right col d-flex justify-content-right">
+            <div class="lien-hote d-flex justify-content-right">
                 <a href="#"><i></i>Devennez hote</a>
             </div>
-            <div class="icon-globe">
+            <div class="icon-globe d-flex justify-content-right">
                 <i class="fas fa-globe"></i>
             </div>
 
-            <div class="complet">
+            <div class="complet d-flex justify-content-right">
                 <div class="icon-menu">
                     <a href="#"><i class="fas fa-bars"></i> </a>
                 </div>
@@ -82,38 +87,7 @@
                 </div>
         </div>
     </div>
-    <div class="header-top" >
-        <div class="header-top-left">
-            <div class="icon">
-                <i class="fab fa-airbnb"></i>
-              <p>airbnb</p>
-            </div>
-    
-        </div>
-        <div class="header-top-center">
-            <div class="search-bar"><input type="search" placeholder="Commencer votre recherche?">
-                <i class="fas fa-search"></i>
-            </div>
-        </div>
-        <div class="header-top-right">
-            <div class="lien-hote">
-                <a href="#"><i></i>Devennez hote</a>
-            </div>
-            <div class="icon-globe">
-                <i class="fas fa-globe"></i>
-            </div>
-
-            <div class="complet">
-                <div class="icon-menu">
-                    <a href="#"><i class="fas fa-bars"></i> </a>
-                </div>
-                <div class="icon-user">
-                    <a href=""><i class="fas fa-user-circle"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </div>
+   
 </div>
 
 <!-- container home -->
@@ -169,6 +143,5 @@
         <div class="footer-bas"></div>
     </div>    
   </footer>
-
 </body>
 </html>
