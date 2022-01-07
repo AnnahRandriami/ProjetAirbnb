@@ -5,14 +5,12 @@
         padding: 0;
     }
 
-   
      .header-top .header-top-left .icon i{
         display: none;
     }
     .header-top .header-top-left .icon p{
         display: none;
     }
-
     .header .header-top-center{
         width: 400px;
     }
@@ -27,3 +25,6 @@
     }
     
 
+@media screen and (min-width:599px) {
+    
+}

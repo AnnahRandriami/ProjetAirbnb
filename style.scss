@@ -2,9 +2,7 @@ body{
     margin: 0;
     padding:0;
 }
-
 header {
-   
 }
 .header-top{
     z-index: 9999;
@@ -31,7 +29,7 @@ header {
         }
     }
      .header-top-center{
-        display: inline-block;
+     display: inline-block;
         width: 25%;
         font-size: 1rem;
         text-align: center;
@@ -133,14 +131,10 @@ header {
    
       .quatriemeimage{
           display: flex;
-          margin-left: 50px;
-          margin-right: 10px;
-          gap:1px;
           .dehors, .cuisine{
               flex:1;
             img{
-                width: 600px;
-                height: 800px;
+              
                 border-radius: 10px;
             }
           }
@@ -188,13 +182,14 @@ header {
         background-image: url(/image/berre.jpg);
         position: relative;
         opacity: 0,65;
-          z-index: 1;
+        z-index: 1;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 90%;
         width: 70%;
        margin-left: 200px;
+       margin-bottom: 30px;
     }
 
     .deuxiemeimage{
@@ -210,19 +205,25 @@ header {
        margin-left: 200px;
     }
     .quatriemeimage{
-        background-image: url(/image/havefun-gc8efcafbb_1920.jpg);
+    
         position: relative;
         opacity: 0,65;
-          z-index: 1;
+        z-index: 1;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 90%;
         width: 70%;
-       margin-left: 200px;
+       margin-bottom: 30px;
+        .dehors{
+            height: 90%;g
+            width: 50%;
+        }
     }
+
+
     .cinquiemeimage{
-        background-image: url(/image/restaurant-g407041824_1920.jpg);
+      
         position: relative;
         opacity: 0,65;
           z-index: 1;
@@ -232,6 +233,7 @@ header {
         height: 90%;
         width: 70%;
        margin-left: 200px;
+       margin-bottom: 30px;
     }
 }
 
