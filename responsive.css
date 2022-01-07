@@ -1,0 +1,29 @@
+@media screen and (max-width: 599px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+   
+     .header-top .header-top-left .icon i{
+        display: none;
+    }
+    .header-top .header-top-left .icon p{
+        display: none;
+    }
+
+    .header .header-top-center{
+        width: 400px;
+    }
+
+    .header .header-top-right{
+        display: none;
+    }
+
+    .container-home .premiereimage, .container-home .deuxiemeimage, .container-home .quatriemeimage, .container-home .cinquiemeimage{
+   margin-left: 0px;
+   width: 100%;
+    }
+    
+

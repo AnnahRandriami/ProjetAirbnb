@@ -4,6 +4,7 @@ body {
 }
 
 .header-top {
+  z-index: 9999;
   margin-top: -50px;
   position: fixed;
   height: 100px;
@@ -114,12 +115,10 @@ body {
   font-size: 1.9rem;
 }
 
-.container-home {
-  height: 100vh;
-}
 .container-home .librairie {
   background-color: black;
   margin-top: 50px;
+  height: 100vh;
 }
 .container-home .librairie .cinquiemeimage {
   text-align: center;
@@ -164,6 +163,7 @@ body {
 .container-home .premiereimage, .container-home .deuxiemeimage, .container-home footer {
   text-align: center;
   height: 100vh;
+  background-color: white;
 }
 .container-home img {
   margin-top: 20px;
@@ -173,6 +173,55 @@ body {
 .container-home .container-text p {
   color: black;
   z-index: 9999;
+}
+
+.container-home .premiereimage {
+  background-image: url(/image/berre.jpg);
+  position: relative;
+  opacity: 0, 65;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 70%;
+  margin-left: 200px;
+}
+.container-home .deuxiemeimage {
+  background-image: url(/image/cartre2.png);
+  position: relative;
+  opacity: 0, 65;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 70%;
+  margin-left: 200px;
+}
+.container-home .quatriemeimage {
+  background-image: url(/image/havefun-gc8efcafbb_1920.jpg);
+  position: relative;
+  opacity: 0, 65;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 70%;
+  margin-left: 200px;
+}
+.container-home .cinquiemeimage {
+  background-image: url(/image/restaurant-g407041824_1920.jpg);
+  position: relative;
+  opacity: 0, 65;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 70%;
+  margin-left: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
