@@ -8,7 +8,7 @@ header {
     z-index: 9999;
     margin-top: -50px;
   position: fixed;
-       height: 100px;
+       height: 80px;
        width: 100%;
       
     }
@@ -122,20 +122,15 @@ header {
     .cinquiemeimage{
         text-align: center;
         height: 100vh;
-        img{
-            margin-top: 20px;
-            width:1200px;
-            height: 700px;      
-        }
     }
    
       .quatriemeimage{
           display: flex;
           .dehors, .cuisine{
-              flex:1;
+              flex:2;
             img{
               
-                border-radius: 10px;
+                border-radius: 50px;
             }
           }
       }
@@ -163,11 +158,12 @@ header {
         text-align: center;
         height: 100vh;
         background-color: white;
-    }
         img{
             margin-top: 20px;
             width:1000px;
-            height: 700px;        
+            height: 700px;  
+    }
+              
     }
     .container-text p{
         color: black;
@@ -176,7 +172,18 @@ header {
 }
     
 .container-home {
-
+    .cinquiemeimage{
+        background-image: url(/image/summer-gac3e5be24_1920.jpg);
+        position: relative;
+        opacity: 0,65;
+          z-index: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90%;
+        width: 70%;
+       margin-left: 200px;
+    }
     .premiereimage{
        
         background-image: url(/image/berre.jpg);
@@ -206,21 +213,10 @@ header {
     }
     .quatriemeimage{
     
-        position: relative;
-        opacity: 0,65;
-        z-index: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 90%;
-        width: 70%;
-       margin-bottom: 30px;
-        .dehors, .cuisine {
-            height: 90%;
-            width: 50%;
-        }
+         img{
+             margin-left: 30px;
+         }
     }
-
 
     .cinquiemeimage{
       
