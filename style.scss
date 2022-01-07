@@ -172,6 +172,11 @@ header {
 }
     
 .container-home {
+ .librairie{
+     .troisiemeimage{
+         padding-top: 80px;
+     }
+ }
     .cinquiemeimage{
         background-image: url(/image/summer-gac3e5be24_1920.jpg);
         position: relative;
@@ -280,11 +285,14 @@ header {
      text-align: right;
      font-family: Georgia;
      margin: 0 auto;
-     left: 0%;
+     left: 0;
      right: 0;
-     top: 20%;
+     top: 30%;
      color: black;
      width: 80%;
+span {
+    font-size: 1.5rem;
+}
 
  }
 
@@ -296,12 +304,31 @@ header {
       text-align: center;
       font-family: Georgia;
      border-radius: 40px;
-      left: 0;
+      left: 68%;
       right: 0;
-      top: 80%;
-      color:purple;
+      top: 58%;
+      color: white;
       width: 25%;
-      background-color: #efefef;
-      margin-left: 420px;
+      background-color: black;
+      
  }
+}
+.troisiemeimage{
+    position: relative;
+  
+.texte {
+   font-size: 2.5rem;
+   font-weight: bold;
+     z-index: 1;
+     position: absolute;
+     text-align: left;
+     font-family: Georgia;
+     margin: 0 auto;
+     left: -17%;
+     right: 0;
+     top: 5%;
+     color: black;
+     width: 80%;
+   
+}
 }
