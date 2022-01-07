@@ -243,10 +243,88 @@ body {
 .container-home .librairie {
   background-color: black;
   margin-top: 50px;
+ 
 }
 .container-home .librairie .cinquiemeimage {
   text-align: center;
   height: 100vh;
+}
+ .premiereimage {
+   position: relative;
+ }
+.premiereimage .texte {
+  font-size: 2.5rem;
+  font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%;
+    color: white;
+    width: 70%;
+
+}
+.premiereimage .bouton {
+  font-size: 1.4rem;
+  font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 75%;
+    background-color:#efefef;
+    color: rgb(178, 26, 224);
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    padding-top: 20px;
+
+}
+
+.deuxiemeimage {
+  position: relative;
+  background-color: #efefef;
+
+}
+.deuxiemeimage .texte {
+ font-size: 2.5rem;
+ font-weight: bold;
+   z-index: 1;
+   position: absolute;
+   text-align: center;
+   font-family: Georgia;
+   margin-left: 20px;
+   left: 20%;
+   right: 80%;
+   top: 60%;
+   color: black;
+   width: 70%;
+
+}
+.deuxiemeimage .bouton {
+ font-size: 1.4rem;
+ font-weight: bold;
+   z-index: 1;
+   position: absolute;
+   text-align: left;
+   font-family: Georgia;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   top: 75%;
+   background-color:#efefef;
+   color: rgb(178, 26, 224);
+   width: 15%;
+   height: 50px;
+   border-radius: 50px;
+   padding-top: 20px;
+
 }
 .container-home .librairie .cinquiemeimage img {
   margin-top: 20px;
@@ -297,5 +375,7 @@ body {
   color: black;
   z-index: 9999;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
