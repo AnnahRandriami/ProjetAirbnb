@@ -200,7 +200,7 @@ header {
     }
 
     .deuxiemeimage{
-        background-image: url(/image/cartre2.png);
+        background-image: url(/image/christmas-background-g38d107628_1920.jpg);
         position: relative;
         opacity: 0,65;
           z-index: 1;
@@ -233,4 +233,75 @@ header {
     }
 }
 
+.premiereimage {
+    position: relative;
   
+.texte {
+   font-size: 2.5rem;
+   font-weight: bold;
+     z-index: 1;
+     position: absolute;
+     text-align: center;
+     font-family: Georgia;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     top: 60%;
+     color: white;
+     width: 80%;
+ }
+
+ .bouton{
+    font-size: 1.4rem;
+    font-weight: bold;
+      z-index: 1;
+      position: absolute;
+      text-align: center;
+      font-family: Georgia;
+     border-radius: 40px;
+      left: 0;
+      right: 0;
+      top: 80%;
+      color:purple;
+      width: 25%;
+      background-color: #efefef;
+      margin-left: 420px;
+ }
+}
+
+.deuxiemeimage {
+    position: relative;
+  
+.texte {
+   font-size: 2.5rem;
+   font-weight: bold;
+     z-index: 1;
+     position: absolute;
+     text-align: right;
+     font-family: Georgia;
+     margin: 0 auto;
+     left: 0%;
+     right: 0;
+     top: 20%;
+     color: black;
+     width: 80%;
+
+ }
+
+ .bouton{
+    font-size: 1.4rem;
+    font-weight: bold;
+      z-index: 1;
+      position: absolute;
+      text-align: center;
+      font-family: Georgia;
+     border-radius: 40px;
+      left: 0;
+      right: 0;
+      top: 80%;
+      color:purple;
+      width: 25%;
+      background-color: #efefef;
+      margin-left: 420px;
+ }
+}
