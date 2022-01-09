@@ -1,3 +1,14 @@
+@mixin flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ @mixin backgroundImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
 body{
     margin: 0;
     padding:0;
@@ -7,10 +18,9 @@ header {
 .header-top{
     z-index: 9999;
     margin-top: -50px;
-  position: fixed;
-       height: 80px;
-       width: 100%;
-      
+    position: fixed;
+    height: 80px;
+    width: 100%;
     }
     .header-top-left{
         display: inline-block;
@@ -30,9 +40,9 @@ header {
     }
      .header-top-center{
      display: inline-block;
-        width: 25%;
-        font-size: 1rem;
-        text-align: center;
+    width: 25%;
+    font-size: 1rem;
+    text-align: center;
       background-color: white;
       border: 0.1rem solid;
       border-radius: 50px;
@@ -114,7 +124,9 @@ header {
 
                 }    
      }
-.container-home{
+.container-home{ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   .librairie{
       background-color: black;
       margin-top: 50px;  
@@ -123,7 +135,6 @@ header {
         text-align: center;
         height: 100vh;
     }
-   
       .quatriemeimage{
           display: flex;
           .dehors, .cuisine{
@@ -134,11 +145,8 @@ header {
             }
           }
       }
-      
     .troisiemeimage{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexbox;
         background-color: white;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -153,7 +161,6 @@ header {
          }
     }
   }
-   
     .premiereimage, .deuxiemeimage , footer{
         text-align: center;
         height: 100vh;
@@ -162,15 +169,13 @@ header {
             margin-top: 20px;
             width:1000px;
             height: 700px;  
-    }
-              
+    }     
     }
     .container-text p{
         color: black;
         z-index: 9999;
     }
 }
-    
 .container-home {
  .librairie{
      .troisiemeimage{
@@ -178,40 +183,34 @@ header {
      }
  }
     .cinquiemeimage{
-        background-image: url(/image/summer-gac3e5be24_1920.jpg);
+        background-image: url(/image/sunrise-g2bf50010c_1920.jpg);
         position: relative;
         opacity: 0,65;
-          z-index: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        z-index: 1;
+        @include backgroundImg; 
         height: 90%;
-        width: 70%;
+        width: 90%;
        margin-left: 200px;
+       top:10%;
+       border-radius: 3%;
     }
     .premiereimage{
-       
         background-image: url(/image/berre.jpg);
         position: relative;
         opacity: 0,65;
         z-index: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        @include backgroundImg; 
         height: 90%;
         width: 70%;
        margin-left: 200px;
        margin-bottom: 30px;
     }
-
     .deuxiemeimage{
         background-image: url(/image/christmas-background-g38d107628_1920.jpg);
         position: relative;
         opacity: 0,65;
-          z-index: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        z-index: 1;
+        @include backgroundImg; 
         height: 90%;
         width: 70%;
        margin-left: 200px;
@@ -222,15 +221,11 @@ header {
              margin-left: 30px;
          }
     }
-
     .cinquiemeimage{
-      
         position: relative;
         opacity: 0,65;
-          z-index: 1;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        z-index: 1;
+        @include backgroundImg; 
         height: 90%;
         width: 70%;
        margin-left: 200px;
@@ -295,7 +290,6 @@ span {
 }
 
  }
-
  .bouton{
     font-size: 1.4rem;
     font-weight: bold;
@@ -310,7 +304,6 @@ span {
       color: white;
       width: 25%;
       background-color: black;
-      
  }
 }
 .troisiemeimage{
@@ -331,4 +324,92 @@ span {
      width: 80%;
    
 }
+}
+.quatriemeimage{
+    position: relative;
+   .cuisine{
+    .texte {
+        font-size: 2.5rem;
+        font-weight: bold;
+          z-index: 1;
+          position: absolute;
+          text-align: right;
+          font-family: Georgia;
+          margin: 0 auto;
+          left: 10%;
+          right: 0;
+          top: 2%;
+          color: black;
+          width: 80%;
+      }
+      .bouton{
+         font-size: 1.4rem;
+         font-weight: bold;
+           z-index: 1;
+           position: absolute;
+           text-align: center;
+           font-family: Georgia;
+          border-radius: 20px;
+           left: 120px;
+           right: 0;
+           top: 25%;
+           color:black;
+           width: 18%;
+           background-color: #f7efef;
+        
+      }
+   }
+}
+.quatriemeimage{
+    position: relative;
+   .dehors{
+    .texte {
+        font-size: 2.5rem;
+        font-weight: bold;
+          z-index: 1;
+          position: absolute;
+          text-align: left;
+          font-family: Georgia;
+          margin: 0 auto;
+          left: -2%;
+          right: 0;
+          top: 2%;
+          color: black;
+          width: 80%;
+      }
+      .bouton{
+         font-size: 1.4rem;
+         font-weight: bold;
+           z-index: 1;
+           position: absolute;
+           text-align: center;
+           font-family: Georgia;
+          border-radius: 20px;
+           left: 84%;
+           right: 0;
+           top: 25%;
+           color:black;
+           width: 10%;
+           background-color: #f7efef;
+        
+      }
+   }
+}
+.cinquiemeimage{
+    position: relative;
+    .texte {
+        font-size:5rem;
+        font-weight: bold;
+          z-index: 1;
+          position: absolute;
+          text-align: center;
+          font-family: Georgia;
+          margin: 0 auto;
+          left: 10%;
+          right: 0;
+          top: 7%;
+          color: white;
+          width: 80%;
+      
+   }
 }

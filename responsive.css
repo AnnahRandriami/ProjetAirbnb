@@ -24,7 +24,36 @@
    width: 100%;
     }
     
+    .premiereimage .texte, .deuxiemeimage .texte, .quatriemeimage .texte{
+        font-size:1.5rem;
+    }
 
-@media screen and (min-width:599px) {
-    
+     .librairie .quatriemeimage{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .premiereimage .bouton{
+        top:90%;
+        font-size: 1rem;
+        left: 25%;
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    .deuxiemeimage .bouton{
+      font-size: 1rem;
+      width: 50%;
+    left:45%;
+    top: 65%;
+    }
+  .troisiemeimage .texte{
+      font-size: 1.6rem;
+      top: 1%;
+  }
+
+  .troisiemeimage img{
+ 
+  }
 }

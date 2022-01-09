@@ -115,6 +115,11 @@ body {
   font-size: 1.9rem;
 }
 
+.container-home {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container-home .librairie {
   background-color: black;
   margin-top: 50px;
@@ -135,8 +140,8 @@ body {
 }
 .container-home .librairie .troisiemeimage {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -169,7 +174,7 @@ body {
   padding-top: 80px;
 }
 .container-home .cinquiemeimage {
-  background-image: url(/image/summer-gac3e5be24_1920.jpg);
+  background-image: url(/image/sunrise-g2bf50010c_1920.jpg);
   position: relative;
   opacity: 0, 65;
   z-index: 1;
@@ -177,8 +182,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90%;
-  width: 70%;
+  width: 90%;
   margin-left: 200px;
+  top: 10%;
+  border-radius: 3%;
 }
 .container-home .premiereimage {
   background-image: url(/image/berre.jpg);
@@ -306,6 +313,90 @@ body {
   right: 0;
   top: 5%;
   color: black;
+  width: 80%;
+}
+
+.quatriemeimage {
+  position: relative;
+}
+.quatriemeimage .cuisine .texte {
+  font-size: 2.5rem;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+  text-align: right;
+  font-family: Georgia;
+  margin: 0 auto;
+  left: 10%;
+  right: 0;
+  top: 2%;
+  color: black;
+  width: 80%;
+}
+.quatriemeimage .cuisine .bouton {
+  font-size: 1.4rem;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  border-radius: 20px;
+  left: 120px;
+  right: 0;
+  top: 25%;
+  color: black;
+  width: 18%;
+  background-color: #f7efef;
+}
+
+.quatriemeimage {
+  position: relative;
+}
+.quatriemeimage .dehors .texte {
+  font-size: 2.5rem;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+  text-align: left;
+  font-family: Georgia;
+  margin: 0 auto;
+  left: -2%;
+  right: 0;
+  top: 2%;
+  color: black;
+  width: 80%;
+}
+.quatriemeimage .dehors .bouton {
+  font-size: 1.4rem;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  border-radius: 20px;
+  left: 84%;
+  right: 0;
+  top: 25%;
+  color: black;
+  width: 10%;
+  background-color: #f7efef;
+}
+
+.cinquiemeimage {
+  position: relative;
+}
+.cinquiemeimage .texte {
+  font-size: 5rem;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 auto;
+  left: 10%;
+  right: 0;
+  top: 7%;
+  color: white;
   width: 80%;
 }
 
