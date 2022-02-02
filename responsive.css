@@ -1,30 +1,29 @@
 @media screen and (max-width: 599px) {
-
     body{
         margin: 0;
         padding: 0;
     }
-
      .header-top .header-top-left .icon i{
         display: none;
     }
     .header-top .header-top-left .icon p{
         display: none;
     }
-    .header .header-top-center{
+    .header .header-top-center {
         width: 400px;
     }
-
     .header .header-top-right{
         display: none;
     }
 
-    .container-home .premiereimage, .container-home .deuxiemeimage, .container-home .quatriemeimage, .container-home .cinquiemeimage{
+    .container-home .premiereimage, .container-home .deuxiemeimage, 
+    .container-home .quatriemeimage, .container-home .cinquiemeimage{
    margin-left: 0px;
    width: 100%;
     }
     
-    .premiereimage .texte, .deuxiemeimage .texte, .quatriemeimage .texte{
+    .premiereimage .texte, .deuxiemeimage .texte, 
+    .quatriemeimage .texte{
         font-size:1.5rem;
     }
 
@@ -41,20 +40,19 @@
         margin-left: 10px;
         width: 50%;
     }
-
     .deuxiemeimage .bouton{
       font-size: 1rem;
       width: 50%;
-    left:45%;
-    top: 50%;
+      left:45%;
+      top: 50%;
     }
   .troisiemeimage .texte{
       font-size: 1.6rem;
       top: 1%;
   }
-  .quatriemeimage .cuisine .texte {
+  .quatriemeimage .cuisine .texte{
     text-align: left;
-}
+  }
 .quatriemeimage .cuisine .bouton {
    width:40% ;
    font-size: 1.2rem;
@@ -69,17 +67,17 @@
     left:10%;
     width: 30%;
 }
-
 .cinquiemeimage .texte {
    font-size: 2rem;
    top:30%;
    left: 10px;
-   }
+ }
    .container-home .librairie .cinquiemeimage {
        width: 450px;
        left:20px;
    }
-   .container-home .librairie .quatriemeimage {
-       width: :200px;
-   }
+  
+
 }
+
+     
