@@ -174,7 +174,7 @@ body {
   padding-top: 80px;
 }
 .container-home .cinquiemeimage {
-  background-image: url(/image/sunrise-g2bf50010c_1920.jpg);
+  background-image: url(./image/sunrise-g2bf50010c_1920.jpg);
   position: relative;
   opacity: 0, 65;
   z-index: 1;
@@ -188,7 +188,7 @@ body {
   border-radius: 3%;
 }
 .container-home .premiereimage {
-  background-image: url(/image/berre.jpg);
+  background-image: url(./image/berre.jpg);
   position: relative;
   opacity: 0, 65;
   z-index: 1;
@@ -201,7 +201,7 @@ body {
   margin-bottom: 30px;
 }
 .container-home .deuxiemeimage {
-  background-image: url(/image/christmas-background-g38d107628_1920.jpg);
+  background-image: url(./image/christmas-background-g38d107628_1920.jpg);
   position: relative;
   opacity: 0, 65;
   z-index: 1;
